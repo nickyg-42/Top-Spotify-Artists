@@ -63,7 +63,7 @@ function App() {
         <br/>
         {token ? 
           <button className="btn" id="showTop" onClick={showTop}>Show top artists</button>
-          : <h2>login to search for songs</h2>
+          : <h2>login to display top artists</h2>
         } 
         <br/>
         {renderArtists()}
